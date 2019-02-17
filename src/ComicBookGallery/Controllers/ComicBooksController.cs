@@ -6,7 +6,13 @@ using System.Web.Mvc;
 
 namespace ComicBookGallery.Controllers
 {
+    //controller classes need to be public for the site to run
     public class ComicBooksController : Controller
     {
+        //Action results also need to be public
+        public string Detail()
+        {
+            return "Comic books controller";
+        }
     }
 }
